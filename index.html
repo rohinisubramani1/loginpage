@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sri Eshwar Login Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0072ff, #00c6ff);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-box {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      width: 350px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    .login-box img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+
+    .login-box h2 {
+      margin-bottom: 25px;
+      color: #003366;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background-color: #0055a5;
+    }
+
+    .login-box .footer {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .login-box .footer a {
+      color: #0072ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <img src="359150a9-e9d5-4514-bc24-2d6af4330f58.png" alt="Sri Eshwar Logo">
+    <h2>Student Login</h2>
+    <form>
+      <input type="text" placeholder="Enter Username" required>
+      <input type="password" placeholder="Enter Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div class="footer">
+      <p>Forgot your password? <a href="#">Click here</a></p>
+    </div>
+  </div>
+</body>
+</html>
